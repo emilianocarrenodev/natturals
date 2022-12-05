@@ -1,0 +1,266 @@
+.container-sidebar {
+    padding: 50px 0px 30px 0px;
+
+    h2 {
+        margin-bottom: 19px;
+        text-transform: uppercase;
+        letter-spacing: 0.41px;
+        line-height: 23px;
+        font-weight: 700;
+        font-size: 18px;
+        color: $color-primary;
+        opacity: 0.9;
+    }
+
+    h3 {
+        margin-top: 33px;
+        margin-bottom: 7px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        line-height: 19px;
+        font-weight: 700;
+        font-size: 16px;
+        color: $color-primary;
+    }
+
+    h4 {
+        margin-bottom: 7px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 15px;
+        font-weight: 700;
+        font-size: 12px;
+        color: $color-fourth;
+        opacity: 0.9;
+    }
+
+    .input-group {
+        width: 100%;
+        margin-bottom: 33px;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-bottom: 15px;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-bottom: 15px;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-bottom: 15px;
+        }
+
+        @include respond-to($medium-large) {
+            margin-bottom: 15px;
+        }
+
+        .form-control {
+            padding: 12px 12px 12px 60px;
+            letter-spacing: 0;
+            line-height: 12px;
+            font-size: 14px;
+            color: $color-primary;
+            border: none;
+            background-size: 20px auto;
+            background-repeat: no-repeat;
+            background-color: #FAFAFA;
+            background-position: 20px center;
+            background-image: url('../img/icon-glass.png');
+            -webkit-border-radius: 4px !important;
+            -moz-border-radius: 4px !important;
+            border-radius: 4px !important;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                padding: 12px 12px 12px 40px;
+                background-position: 10px center;
+            }
+
+            @include respond-to($phone-tablet) {
+                padding: 12px 12px 12px 40px;
+                background-position: 10px center;
+            }
+
+            @include respond-to($tablet-medium) {
+                padding: 12px 12px 12px 40px;
+                background-position: 10px center;
+            }
+
+            @include respond-to($medium-large) {
+                padding: 12px 12px 12px 40px;
+                background-position: 10px center;
+            }
+
+            &::-webkit-input-placeholder {
+                letter-spacing: 0;
+                line-height: 12px;
+                font-size: 14px;
+                color: $color-primary;
+            }
+    
+            &:-ms-input-placeholder {
+                letter-spacing: 0;
+                line-height: 12px;
+                font-size: 14px;
+                color: $color-primary;
+            }
+    
+            &::placeholder {
+                letter-spacing: 0;
+                line-height: 12px;
+                font-size: 14px;
+                color: $color-primary;
+            }
+        }
+
+        .btn {
+            padding: 12px;
+            margin-left: 9px !important;
+            letter-spacing: 2px;
+            line-height: 12px;
+            font-size: 12px;
+            color: #FFFFFF;
+            border: none;
+            background-color: $color-primary;
+            -webkit-border-radius: 4px !important;
+            -moz-border-radius: 4px !important;
+            border-radius: 4px !important;
+        }
+    }
+
+    .container-sidebar-collapse {
+        margin-bottom: 33px;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-bottom: 15px;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-bottom: 15px;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-bottom: 15px;
+        }
+
+        @include respond-to($medium-large) {
+            margin-bottom: 15px;
+        }
+
+        .btn-sidebar-menu {
+            width: 100%;
+            margin: 0px;
+            padding: 5px 0px;
+            border: none;
+            border-bottom: 1px solid #C0C0C0;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            line-height: 19px;
+            font-size: 16px;
+            color: $color-primary;
+            opacity: 0.9;
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            border-radius: 0px;
+        }
+
+        ul {
+            margin: 0px;
+            padding-left: 0px;
+            list-style: none;
+
+            li {
+                margin-top: 11px;
+
+                .btn {
+                    padding: 0px;
+                    border: none !important;
+                    background: transparent !important;
+                    text-transform: capitalize;
+                    letter-spacing: 0;
+                    line-height: 17px;
+                    font-size: 14px;
+                    color: $color-third;
+                    opacity: 0.9;
+                    -webkit-border-radius: 0px;
+                    -moz-border-radius: 0px;
+                    border-radius: 0px;
+
+                    &:hover,
+                    &:active{
+                        color: $color-primary;
+                    }
+
+                    &.active {
+                        font-weight: 700;
+                        color: $color-primary;
+                    }
+                }
+            }
+        }
+    }
+
+    .container-sidebar-check {
+        margin-bottom: 20px;
+
+        .form-check {
+            margin-bottom: 5px;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                margin-bottom: 15px;
+            }
+
+            @include respond-to($phone-tablet) {
+                margin-bottom: 15px;
+            }
+
+            @include respond-to($tablet-medium) {
+                margin-bottom: 15px;
+            }
+
+            @include respond-to($medium-large) {
+                margin-bottom: 15px;
+            }
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+
+            .form-check-label {
+                text-transform: uppercase;
+                letter-spacing: 0;
+                line-height: 13px;
+                font-size: 11px;
+                color: $color-fourth;
+                opacity: 0.9;
+            }
+        }
+
+        .btn {
+            padding: 0px;
+            text-decoration: none;
+            letter-spacing: 0;
+            line-height: 12px;
+            font-weight: 700;
+            font-size: 13px;
+            color: #037C8C;
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            span {
+                margin-right: 10px;
+                letter-spacing: 0;
+                line-height: 12px;
+                font-weight: 700;
+                font-size: 13px;
+                color: #037C8C;
+            }
+        }
+    }
+}

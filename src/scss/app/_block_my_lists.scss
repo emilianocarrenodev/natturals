@@ -1,0 +1,135 @@
+.block-my-lists {
+    margin-top: 30px;
+    padding-bottom: 75px;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding-bottom: 30px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding-bottom: 30px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding-bottom: 30px;
+    }
+
+    @include respond-to($medium-large) {
+        padding-bottom: 30px;
+    }
+
+    h1 {
+        margin-bottom: 25px;        
+        padding: 0px 0px 9px 25px;
+        border-bottom: 1px solid #C0C0C0;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        line-height: 23px;
+        font-weight: 700;
+        font-size: 20px;
+        color: $color-primary;
+        background-size: 17px auto;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: left 3px;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-bottom: 15px;
+            padding-bottom: 0px;
+            border-bottom: none;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-bottom: 15px;
+            padding-bottom: 0px;
+            border-bottom: none;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-bottom: 15px;
+            padding-bottom: 0px;
+            border-bottom: none;
+        }
+
+        @include respond-to($medium-large) {
+            margin-bottom: 15px;
+            padding-bottom: 0px;
+            border-bottom: none;
+        }
+    }
+
+    .container-title {
+        padding: 15px;
+        background-color: #409CA8;
+
+        h2 {
+            margin: 0px;
+            letter-spacing: 0;
+            line-height: 23px;
+            font-weight: 700;
+            font-size: 16px;
+            color: #FFFFFF;
+            opacity: 0.9;
+        }
+    }
+
+    .container-list {
+
+        .items {
+            padding: 25px 5px 25px 15px;
+            border-bottom: 1px solid #C0C0C0;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                padding: 23px 0px;
+            }
+
+            @include respond-to($phone-tablet) {
+                padding: 23px 0px;
+            }
+
+            @include respond-to($tablet-medium) {
+                padding: 23px 0px;
+            }
+
+            @include respond-to($medium-large) {
+                padding: 23px 0px;
+            }
+
+            h3 {
+                margin: 0px;
+                text-transform: uppercase;
+                letter-spacing: 0;
+                line-height: 23px;
+                font-size: 16px;
+                color: $color-primary;
+                opacity: 0.9;
+            }
+
+            .btn-see-list {
+                text-align: center;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                line-height: 15px;
+                font-weight: 700;
+                font-size: 12px;
+                color: $color-primary;
+
+                &:hover {
+                    text-decoration: underline !important;
+                }
+            }
+
+            .btn-trash {
+
+                .lni {
+                    line-height: 25px;
+                    font-size: 25px;
+                    color: $color-secondary;
+                }
+            }
+        }
+    }
+}

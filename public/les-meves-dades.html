@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>Super Andorra</title>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" sizes="any">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bundle.min.css">
+</head>
+
+<body>
+    <!--header-->
+    <header></header>
+    <!--Fin header-->
+    <!--Bloque-->
+    <section class="block-form-my-account">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3 pe-lg-5">
+                    <div class="card container-sidebar-my-account">
+                        <div class="card-img-top" style="background-image: url('assets/img/image-card.jpg');"></div>
+                        <div class="card-body">
+                            <div class="container-logo">
+                                <img src="assets/img/logo.png" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="container-list">
+                                <ul>
+                                    <li><a href="" style="background-image: url('assets/img/icon-menu-1.png');" target="_self"><span>Les meves comandes</span></a></li>
+                                    <li><a href="" style="background-image: url('assets/img/icon-menu-2.png');" target="_self"><span>Les meves llistes</span></a></li>
+                                    <li><a href="" style="background-image: url('assets/img/icon-menu-3.png');" target="_self"><span>Els meus favorits</span></a></li>
+                                    <li><a href="" style="background-image: url('assets/img/icon-menu-4.png');" target="_self"><span>Les meves adreces</span></a></li>
+                                    <li><a href="" style="background-image: url('assets/img/icon-menu-5.png');" target="_self"><span>Detalls del compte</span></a></li>
+                                    <li><a href="" target="_self">Tancar sessió</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="alert alert-success" role="alert">La información de cuenta se ha cambiado correctamente.</div>
+                    <div class="alert alert-danger" role="alert"><strong>Apellidos</strong> es un campo requerido.</div>
+                    <h1 style="background-image: url('assets/img/icon-menu-4.png');">Les meves dades</h1>
+                    <form action="" method="post" class="needs-validation" novalidate="">
+                        <input type="hidden" name="action" value="save_account_details">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <label class="form-label">Ets client Fidelia? *</label>
+                                <div class="mb-0">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="input-radio-client-fidelia-no" name="input_radio_client_fidelia" value="no" required="">
+                                        <label class="form-check-label" for="input-radio-client-fidelia-no">No</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="input-radio-client-fidelia-si" name="input_radio_client_fidelia" value="si" required="">
+                                        <label class="form-check-label" for="input-radio-client-fidelia-si">Sí</label>
+                                    </div>
+                                </div>
+                                <label class="form-label">Tipus de client *</label>
+                                <div class="mb-0">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="input-radio-tipus-client-1" name="input_radio_tipus_client" value="particular" required="">
+                                        <label class="form-check-label" for="input-radio-tipus-client-1">Particular</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="input-radio-tipus-client-2" name="input_radio_tipus_client" value="empresa" required="">
+                                        <label class="form-check-label" for="input-radio-tipus-client-2">Empresa</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="mb-4">
+                                    <label for="input_numero_targeta" class="form-label">Número de la teva targeta fidelitat</label>
+                                    <input type="text" class="form-control" id="input_numero_targeta" name="input_numero_targeta" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <div class="mb-4">
+                                    <label for="account_first_name" class="form-label">Nom *</label>
+                                    <input type="text" class="form-control" id="account_first_name" name="account_first_name" value="" required="">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="account_display_name" class="form-label">Nom de visualització *</label>
+                                    <input type="text" class="form-control" id="account_display_name" name="account_display_name" value="admin-emiliano" required="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="mb-4">
+                                    <label for="account_last_name" class="form-label">Cognoms *</label>
+                                    <input type="text" class="form-control" id="account_last_name" name="account_last_name" value="" required="">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="account_email" class="form-label">Correu electrònic *</label>
+                                    <input type="email" class="form-control" id="account_email" name="account_email" value="emiliano0662@gmail.com" required="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <div class="mb-4">
+                                    <label for="password_current" class="form-label">Contrasenya actual (deixeu en blanc per no canviar-vos)</label>
+                                    <input type="password" class="form-control" name="password_current" id="password_current" autocomplete="off">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <div class="mb-4">
+                                    <label for="newPassword" class="form-label">Contrasenya nova (deixeu en blanc per deixar-la sense canvis)</label>
+                                    <input type="password" class="form-control valid-password" name="password_1" id="newPassword" autocomplete="off">
+                                </div>	
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="mb-4">
+                                    <label for="confirmPassword" class="form-label">Confirmar nova contrasenya</label>
+                                    <input type="password" class="form-control valid-password" name="password_2" id="confirmPassword" autocomplete="off">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3 mt-lg-5">
+                            <div class="col-12 col-lg-6">
+                                <button type="submit" class="btn btn-primary" name="save_account_details">actualitzar perfil</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin bloque-->
+    <!--footer-->
+    <footer></footer>
+    <!--Fin footer-->
+    <script type="text/javascript" src="./assets/js/bundle.min.js"></script>
+</body>
+
+</html>

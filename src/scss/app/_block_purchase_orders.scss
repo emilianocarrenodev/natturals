@@ -1,0 +1,159 @@
+.block-purchase-orders {
+    margin-top: 30px;
+    padding-bottom: 75px;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding-bottom: 30px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding-bottom: 30px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding-bottom: 30px;
+    }
+
+    @include respond-to($medium-large) {
+        padding-bottom: 30px;
+    }
+
+    h1 {
+        margin-bottom: 25px;        
+        padding: 0px 0px 9px 25px;
+        border-bottom: 1px solid #C0C0C0;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        line-height: 23px;
+        font-weight: 700;
+        font-size: 20px;
+        color: $color-primary;
+        background-size: 17px auto;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: left 3px;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-bottom: 15px;
+            padding-bottom: 0px;
+            border-bottom: none;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-bottom: 15px;
+            padding-bottom: 0px;
+            border-bottom: none;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-bottom: 15px;
+            padding-bottom: 0px;
+            border-bottom: none;
+        }
+
+        @include respond-to($medium-large) {
+            margin-bottom: 15px;
+            padding-bottom: 0px;
+            border-bottom: none;
+        }
+    }
+
+    .container-title {
+        padding: 15px;
+        background-color: #409CA8;
+
+        h2 {
+            margin: 0px;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            line-height: 23px;
+            font-weight: 700;
+            font-size: 16px;
+            color: #FFFFFF;
+            opacity: 0.9;
+        }
+
+        h3 {
+            margin: 0px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: 23px;
+            font-weight: 700;
+            font-size: 16px;
+            color: #FFFFFF;
+            opacity: 0.9;
+        }
+    }
+
+    .container-list {
+        max-height: 400px;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        &::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.75);
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #409CA8;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            background: #409CA8;
+        }
+
+        .items {
+            padding: 25px 0px 25px 15px;
+            border-bottom: 1px solid #C0C0C0;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                padding: 23px 0px;
+            }
+
+            @include respond-to($phone-tablet) {
+                padding: 23px 0px;
+            }
+
+            @include respond-to($tablet-medium) {
+                padding: 23px 0px;
+            }
+
+            @include respond-to($medium-large) {
+                padding: 23px 0px;
+            }
+
+            h3 {
+                margin: 0px;
+                text-transform: uppercase;
+                letter-spacing: 0;
+                line-height: 23px;
+                font-size: 16px;
+                color: $color-primary;
+                opacity: 0.9;
+            }
+
+            p {
+                margin: 0px;
+                text-align: center;
+                letter-spacing: 0;
+                line-height: 17px;
+                font-weight: 700;
+                font-size: 14px;
+                color: #4C4B4A;
+            }
+        }
+    }
+}

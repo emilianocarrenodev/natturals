@@ -1,0 +1,587 @@
+.block-receptes {
+    padding: 30px 0px 70px 0px;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 30px 0px 60px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 30px 0px 60px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 30px 0px 60px 0px;
+    }
+
+    @include respond-to($medium-large) {
+        padding: 30px 0px 60px 0px;
+    }
+
+    h1 {
+        margin-bottom: 24px;
+        text-transform: uppercase;
+        letter-spacing: 0.45px;
+        line-height: 23px;
+        font-weight: 700;
+        font-size: 20px;
+        color: $color-primary;
+        opacity: 0.9;
+    }
+
+    .btn-filter {
+        margin-bottom: 40px;
+        padding-left: 0px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            display: none;
+        }
+
+        @include respond-to($phone-tablet) {
+            display: none;
+        }
+
+        @include respond-to($tablet-medium) {
+            display: none;
+        }
+
+        @include respond-to($medium-large) {
+            display: none;
+        }
+
+        li {
+            margin-right: 90px;
+            margin-bottom: 15px;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                margin-right: 25px;
+            }
+
+            @include respond-to($phone-tablet) {
+                margin-right: 25px;
+            }
+
+            @include respond-to($tablet-medium) {
+                margin-right: 25px;
+            }
+
+            @include respond-to($medium-large) {
+                margin-right: 25px;
+            }
+
+            &:last-child {
+                margin-right: 0px;
+            }
+            
+            a {
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                line-height: 23px;
+                font-size: 16px;
+                color: $color-fourth;
+                opacity: 0.9;
+            }
+        }
+    }
+
+    .dropdown {
+        width: 100%;
+        max-width: 176px;
+        margin-bottom: 20px;
+        display: none;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            display: block;
+        }
+
+        @include respond-to($phone-tablet) {
+            display: block;
+        }
+
+        @include respond-to($tablet-medium) {
+            display: block;
+        }
+
+        @include respond-to($medium-large) {
+            display: block;
+        }
+
+        button {
+            width: 100%;
+            padding: 13px 10px;
+            border: 1px solid $color-primary;
+            background-color: #FAFAFA;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            line-height: 14px;
+            font-weight: 700;
+            font-size: 13px;
+            color: $color-fourth;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .dropdown-menu {
+            padding: 0px;
+            border: 1px solid $color-primary;
+            background-color: #FAFAFA;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            
+            .dropdown-item {
+                padding: 12px 10px;
+                text-transform: uppercase;
+                letter-spacing: 0;
+                line-height: 14px;
+                font-size: 13px;
+                color: $color-fourth;
+
+                &:hover {
+                    background-color: $color-primary;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    .btn {
+        min-width: 150px;
+        padding: 10px 30px;
+        border: 1px solid $color-primary;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 16px;
+        font-size: 12px;
+        color: #007EBB;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+
+        &:hover,
+        &:active,
+        &.active {
+            color: #FFFFFF;
+            background-color: #007EBB;
+        }
+    }
+
+    .container-image {
+        width: 100%;
+        height: 392px;
+        padding: 20px 25px;
+        margin-bottom: 8px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: center center;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            height: 200px;
+            margin-bottom: 15px;
+            padding: 12px 17px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        @include respond-to($phone-tablet) {
+            height: 200px;
+            margin-bottom: 15px;
+            padding: 12px 17px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        @include respond-to($tablet-medium) {
+            height: 200px;
+            margin-bottom: 15px;
+            padding: 12px 17px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        @include respond-to($medium-large) {
+            height: 200px;
+            margin-bottom: 15px;
+            padding: 12px 17px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        label {
+            padding: 3px 10px;
+            background-color: #FFFFFF;
+            text-transform: uppercase;
+            letter-spacing: 0.75px;
+            line-height: 23px;
+            font-weight: 700;
+            font-size: 12px;
+            color: $color-primary;
+            opacity: 0.9;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+    }
+
+    .container-items {
+        margin-bottom: 40px;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-bottom: 30px;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-bottom: 30px;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-bottom: 30px;
+        }
+
+        @include respond-to($medium-large) {
+            margin-bottom: 30px;
+        }
+
+        .container-main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+
+            @include respond-to($phone-tablet) {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+
+            @include respond-to($tablet-medium) {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+
+            @include respond-to($medium-large) {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+
+            .left {
+                padding-right: 15px;
+
+                h2 {
+                    margin-bottom: 6px;
+                    letter-spacing: 1px;
+                    line-height: 24px;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: $color-fourth;
+                }
+
+                p {
+                    margin: 0px;
+                    letter-spacing: 0;
+                    line-height: 21px; 
+                    font-weight: 300;
+                    font-size: 15px;
+                    color: $color-third;
+                }
+            }
+
+            .right{
+
+                // Breakpoints
+                @include respond-to($phone) {
+                    margin-top: 10px;
+                    align-self: flex-end;
+                }
+
+                @include respond-to($phone-tablet) {
+                    margin-top: 10px;
+                    align-self: flex-end;
+                }
+
+                @include respond-to($tablet-medium) {
+                    margin-top: 10px;
+                    align-self: flex-end;
+                }
+
+                @include respond-to($medium-large) {
+                    margin-top: 10px;
+                    align-self: flex-end;
+                }
+            }
+        }
+    }
+
+    nav {
+
+        .pagination {
+            margin-top: 10px;
+            margin-bottom: 0px;
+            
+            .page-item {
+                
+                .page-link {
+                    height: 15px;
+                    padding: 0px 7px;
+                    border: none;
+                    background-color: transparent;
+                    letter-spacing: 0;
+                    line-height: 13px;
+                    font-weight: 300;
+                    font-size: 13px;
+                    color: $color-fourth;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    .lni {
+                        letter-spacing: 0;
+                        line-height: 9px;
+                        font-weight: 700;
+                        font-size: 9px;
+                        color: $color-fourth;
+                    }
+                }
+
+                &.active {
+
+                    .page-link {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+
+    .container-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .container-image {
+            height: 600px;
+            margin-bottom: 16px;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                height: 250px;
+            }
+
+            @include respond-to($phone-tablet) {
+                height: 250px;
+            }
+
+            @include respond-to($tablet-medium) {
+                height: 250px;
+            }
+
+            @include respond-to($medium-large) {
+                height: 250px;
+            }
+        }
+
+        h2 {
+            margin-bottom: 8px;
+            letter-spacing: 1.13px;
+            line-height: 24px;
+            font-weight: 700;
+            font-size: 18px;
+            color: $color-fourth;
+        }
+
+        h3 {
+            margin-top: 30px;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+            line-height: 24px;
+            font-weight: 700;
+            font-size: 16px;
+            color: $color-fourth;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                margin-top: 0px;
+            }
+
+            @include respond-to($phone-tablet) {
+                margin-top: 0px;
+            }
+
+            @include respond-to($tablet-medium) {
+                margin-top: 0px;
+            }
+
+            @include respond-to($medium-large) {
+                margin-top: 0px;
+            }
+        }
+
+        p {
+            margin-bottom: 25px;
+            letter-spacing: 0;
+            line-height: 22px;
+            font-weight: 300;
+            font-size: 15px;
+            color: $color-third;
+        }
+
+        ul {
+            margin-bottom: 0px;
+            padding-left: 0px;
+            list-style: none;
+
+            li {
+                margin-bottom: 8px;
+                letter-spacing: 0;
+                line-height: 22px;
+                font-weight: 300;
+                font-size: 15px;
+                color: $color-third;
+
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+
+    .container-other-recipes {
+
+        h2 {
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 0.41px;
+            line-height: 23px;
+            font-weight: 700;
+            font-size: 18px;
+            color: $color-fourth;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                margin-top: 35px;
+                margin-bottom: 15px;
+            }
+
+            @include respond-to($phone-tablet) {
+                margin-top: 35px;
+                margin-bottom: 15px;
+            }
+
+            @include respond-to($tablet-medium) {
+                margin-top: 35px;
+                margin-bottom: 15px;
+            }
+
+            @include respond-to($medium-large) {
+                margin-top: 35px;
+                margin-bottom: 15px;
+            }
+        }
+
+        .container-items {
+            margin-bottom: 75px;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                margin-bottom: 35px;
+            }
+
+            @include respond-to($phone-tablet) {
+                margin-bottom: 35px;
+            }
+
+            @include respond-to($tablet-medium) {
+                margin-bottom: 35px;
+            }
+
+            @include respond-to($medium-large) {
+                margin-bottom: 35px;
+            }
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+
+            .container-image {
+                height: 300px;
+                margin-bottom: 14px;
+    
+                // Breakpoints
+                @include respond-to($phone) {
+                    height: 200px;
+                }
+    
+                @include respond-to($phone-tablet) {
+                    height: 200px;
+                }
+    
+                @include respond-to($tablet-medium) {
+                    height: 200px;
+                }
+    
+                @include respond-to($medium-large) {
+                    height: 200px;
+                }
+            }
+
+            h3 {
+                margin-bottom: 4px;
+                letter-spacing: 1px;
+                line-height: 24px;
+                font-weight: 700;
+                font-size: 16px;
+                color: $color-fourth;
+            }
+
+            p {
+                margin-bottom: 18px;
+                letter-spacing: 0;
+                line-height: 21px;
+                font-weight: 300;
+                font-size: 15px;
+                color: $color-third;
+            }
+        }
+    }
+}

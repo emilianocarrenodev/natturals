@@ -1,0 +1,208 @@
+.block-contact {
+    padding: 60px 0px;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 0px 0px 40px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 0px 0px 40px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 0px 0px 40px 0px;
+    }
+
+    @include respond-to($medium-large) {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .img-fluid {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            width: auto;
+            height: 250px;
+            margin: 20px 0px;
+        }
+
+        @include respond-to($phone-tablet) {
+            width: auto;
+            height: 250px;
+            margin: 20px 0px;
+        }
+
+        @include respond-to($tablet-medium) {
+            width: auto;
+            height: 250px;
+            margin: 20px 0px;
+        }
+
+        @include respond-to($medium-large) {
+            width: auto;
+            height: 250px;
+            margin: 20px 0px;
+        }
+    }
+
+    h1 {
+        margin-bottom: 7px;
+        text-transform: uppercase;
+        letter-spacing: 0.61px;
+        line-height: 28px;
+        font-weight: bold;
+        font-size: 22px;
+        color: $color-primary;
+    }
+
+    p {
+        margin-bottom: 23px;
+    }
+
+    ul {
+        margin-bottom: 55px;
+        padding-left: 0px;
+        list-style: none;
+
+        li {
+            letter-spacing: 0;
+            line-height: 22px;
+            font-weight: 700;
+            font-size: 14px;
+            color: $color-third;
+
+            a {
+                letter-spacing: 0;
+                line-height: 22px;
+                font-weight: 700;
+                font-size: 14px;
+                color: $color-third;
+
+                &:hover {
+                    text-decoration: underline !important;
+                }
+            }
+        }
+    }
+
+    form {
+
+        p {
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+            line-height: 16px;
+            font-weight: 700;
+            font-size: 12px;
+            color: $color-fourth;
+        }
+
+        .btn {
+
+            // Breakpoints
+            @include respond-to($phone) {
+                width: 100%;
+            }
+        }
+
+        .wpcf7-not-valid-tip {
+            margin-top: 5px;
+            padding-left: 10px;
+            letter-spacing: 0;
+            line-height: 11px;
+            font-size: 11px;
+            color: #ba1700;
+        }
+
+        .wpcf7-form-control-wrap {
+            width: 100%;
+
+            .wpcf7-checkbox {
+                
+                .wpcf7-list-item {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+
+                    input {
+                        margin-top: 5px;
+                        margin-right: 5px;
+                    }
+                    
+                    .wpcf7-list-item-label {
+                        letter-spacing: 0;
+                        line-height: 20px;
+                        font-size: 12px;
+                        color: $color-fourth;
+                    }
+                }
+            }
+        }
+
+        .form-control {
+            margin-bottom: 0px;
+            padding: 0px 10px 17px 10px;
+            border: none;
+            border-bottom: 1px solid #C0C0C0;
+            letter-spacing: 0;
+            line-height: 10px;
+            font-size: 12px;
+            color: $color-third;
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            border-radius: 0px;
+
+            &::-webkit-input-placeholder {
+                letter-spacing: 0;
+                line-height: 10px;
+                font-size: 12px;
+                color: $color-third;
+            }
+    
+            &:-ms-input-placeholder {
+                letter-spacing: 0;
+                line-height: 10px;
+                font-size: 12px;
+                color: $color-third;
+            }
+    
+            &::placeholder {
+                letter-spacing: 0;
+                line-height: 10px;
+                font-size: 12px;
+                color: $color-third;
+            }
+        }
+
+        textarea {
+            height: 80px;
+        }
+
+        span {
+            width: 100%;
+        }
+
+        .wpcf7-response-output {
+            padding: 10px !important;
+            margin: 15px 0px 0px 0px !important;
+            border: 1px solid #ffecb5 !important;
+            background-color: #fff3cd !important;
+            -webkit-border-radius: 0px !important;
+            -moz-border-radius: 0px !important;
+            border-radius: 0px !important;
+        }
+
+        &.sent {
+
+            .wpcf7-response-output {
+                border: 1px solid #badbcc !important;
+                background-color: #d1e7dd !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "natturals",
+  "version": "1.0.0",
+  "description": "Entorno base",
+  "main": "webpack.config.js",
+  "scripts": {
+    "prod": "webpack --config webpack.config.prod.js",
+    "start": "webpack serve --open",
+    "dev": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "Emiliano carreño",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "css-minimizer-webpack-plugin": "^4.0.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.0",
+    "sass-loader": "^13.0.2",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:emilianocarrenodev/project-2.git"
+  },
+  "homepage": "https://github.com/emilianocarrenodev/project-2/src/master/#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0",
+    "swiper": "^8.3.1"
+  }
+}

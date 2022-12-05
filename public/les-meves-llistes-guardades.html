@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>Super Andorra</title>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" sizes="any">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bundle.min.css">
+</head>
+
+<body>
+    <!--header-->
+    <header></header>
+    <!--Fin header-->
+    <!--Bloque-->
+    <section class="block-llistes-guardades">
+        <div class="container-fluid container-md">
+            <div class="row">
+                <div class="col-12 px-0 px-lg-3">
+                    <h1><i class="lni lni-list"></i>Les meves llistes</h1>
+                </div>
+            </div>
+            <div class="container-title">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-uppercase">noms de llistes</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-list block-shopping-cart">
+                <div class="items">
+                    <div class="row">
+                        <div class="col-5 col-sm-7 col-md-9 d-flex flex-column justify-content-center align-items-start">
+                            <h3>demo 1</h3>
+                        </div>
+                        <div class="col-4 col-sm-3 col-md-2 d-flex flex-column justify-content-center align-items-center">
+                            <a type="button" class="btn-see-list">VEURE LLista</a>
+                        </div>
+                        <div class="col-3 col-sm-2 col-md-1 d-flex flex-column justify-content-center align-items-end">
+                            <form method="POST" action="">
+                                <input type="hidden" name="listRow" value="1">
+                                <input type="hidden" name="userID" value="35">
+                                <input type="hidden" name="eraseLista" value="true">
+                                <button class="btn-trash" type="submit"><i class="lni lni-trash"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="productesLlista">
+                        <div class="container-title">
+                            <div class="row">
+                                <div class="col-12 col-lg-5 col-xl-7">
+                                    <h6 class="text-uppercase">Concepte</h6>
+                                </div>
+                                <div class="col-12 col-lg-3 col-xl-2">
+                                    <h6 class="text-capitalize">Preu</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="items">
+                            <div class="row">
+                                <div class="col-6 col-lg-2 col-xl-2 d-flex flex-column justify-content-start align-items-start align-items-lg-center">
+                                    <img src="https://superu.fcweb.es/wp-content/uploads/2022/08/p3.jpg" alt="Image" class="img-fluid">
+                                </div>
+                                <div class="col-6 col-lg-3 col-xl-5">
+                                    <h3>Ice Tea</h3>
+                                    <ul class="content-list-description">
+                                        <li>Referència: 297270</li>
+                                        <li>Pac. 2 x 2 lt</li>
+                                        <li>€12,50/lt</li>
+                                        <li>Marca: Tubul</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-3 col-xl-2">
+                                    <ul class="content-list-price">
+                                        <li class="type-price">€15/un <span>€15/un</span></li>
+                                        <li class="type-discount">5% en Fruiteria</li>
+                                        <li class="type-discount-price">€15/un</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-4 col-xl-2 offset-xl-1">
+                                    <form class="cart">
+                                        <input type="hidden" name="product_id" value="149">
+                                        <input type="hidden" name="title" value="Ice Tea">
+                                        <input type="hidden" name="image" value="https://superu.fcweb.es/wp-content/uploads/2022/08/p3.jpg">
+                                        <input type="hidden" name="quantity" value="1">
+                                        <div id="ajaxURL" data-url="https://superu.fcweb.es/wp-admin/admin-ajax.php"></div>
+                                        <button type="button" class="btn btn-add-cart">Afegir al carro</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="items">
+                            <div class="row">
+                                <div class="col-6 col-lg-2 col-xl-2 d-flex flex-column justify-content-start align-items-start align-items-lg-center">
+                                    <img src="https://superu.fcweb.es/wp-content/uploads/2022/08/p3.jpg" alt="Image" class="img-fluid">
+                                </div>
+                                <div class="col-6 col-lg-3 col-xl-5">
+                                    <h3>Ice Tea</h3>
+                                    <ul class="content-list-description">
+                                        <li>Referència: 297270</li>
+                                        <li>Pac. 2 x 2 lt</li>
+                                        <li>€12,50/lt</li>
+                                        <li>Marca: Tubul</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-3 col-xl-2">
+                                    <ul class="content-list-price">
+                                        <li class="type-price">€15/un <span>€15/un</span></li>
+                                        <li class="type-discount">5% en Fruiteria</li>
+                                        <li class="type-discount-price">€15/un</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-4 col-xl-2 offset-xl-1">
+                                    <form class="cart">
+                                        <input type="hidden" name="product_id" value="149">
+                                        <input type="hidden" name="title" value="Ice Tea">
+                                        <input type="hidden" name="image" value="https://superu.fcweb.es/wp-content/uploads/2022/08/p3.jpg">
+                                        <input type="hidden" name="quantity" value="1">
+                                        <div id="ajaxURL" data-url="https://superu.fcweb.es/wp-admin/admin-ajax.php"></div>
+                                        <button type="button" class="btn btn-add-cart">Afegir al carro</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="row">
+                        <div class="col-5 col-sm-7 col-md-9 d-flex flex-column justify-content-center align-items-start">
+                            <h3>demo 2</h3>
+                        </div>
+                        <div class="col-4 col-sm-3 col-md-2 d-flex flex-column justify-content-center align-items-center">
+                            <a type="button" class="btn-see-list">VEURE LLista</a>
+                        </div>
+                        <div class="col-3 col-sm-2 col-md-1 d-flex flex-column justify-content-center align-items-end">
+                            <form method="POST" action="">
+                                <input type="hidden" name="listRow" value="2">
+                                <input type="hidden" name="userID" value="35">
+                                <input type="hidden" name="eraseLista" value="true">
+                                <button class="btn-trash" type="submit"><i class="lni lni-trash"></i></button>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="productesLlista">
+                        <div class="container-title">
+                            <div class="row">
+                                <div class="col-12 col-lg-5 col-xl-6">
+                                    <h6 class="text-uppercase">Concepte</h6>
+                                </div>
+                                <div class="col-12 col-lg-3 col-xl-2">
+                                    <h6 class="text-capitalize">Preu</h6>
+                                </div>
+                                <div class="col-12 col-lg-2 col-xl-1">
+                                    <h6 class="text-capitalize">Quantitat</h6>
+                                </div>
+                                <div class="col-12 col-lg-2 col-xl-1 text-end">
+                                    <h6 class="text-capitalize">Total</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="items" data-id="149" data-name="Ice Tea">
+                            <div class="row">
+                                <div class="col-6 col-lg-2 col-xl-2">
+                                    <a href="https://superu.fcweb.es/producto/ice-tea/">
+                                        <img src="https://superu.fcweb.es/wp-content/uploads/2022/08/p3.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-3 col-xl-4">
+                                    <h3 class="productName">Ice Tea</h3>
+                                    <ul class="content-list-description">
+                                        <li>Referència: 297270</li>
+                                        <li>Unitat per pack: Pac. 2 x 2 lt</li>
+                                        <li>€12,50/lt</li>
+                                        <li>Descompte aplicat: Eurofidelia Juin</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-3 col-xl-2">
+                                    <p>€15<span>/un</span></p>
+                                </div>
+                                <div class="col-6 col-lg-2 col-xl-1">
+                                    <div class="content-number-delete">
+                                        1                                            </div>
+                                </div>
+                                <div class="col-12 col-lg-2 col-xl-1 d-flex flex-row justify-content-start justify-content-lg-end align-items-start">
+                                    <span class="woocommerce-Price-amount amount"><bdi>15.00<span class="woocommerce-Price-currencySymbol">€</span></bdi></span>                                        </div>
+                                <div class="col-12 col-lg-2 col-xl-2 d-flex flex-row justify-content-start justify-content-lg-end align-items-start">
+                                    <a href="/cistella/?add-to-cart=149&amp;quantity=1" target="_self" class="btn btn-add-to-cart ">Afegir al carro</a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="items" data-id="147" data-name="Màscara Cabell Repara i protegeix">
+                            <div class="row">
+                                <div class="col-6 col-lg-2 col-xl-2">
+                                    <a href="https://superu.fcweb.es/producto/mascara-cabell-repara-i-protegeix/">
+                                        <img src="https://superu.fcweb.es/wp-content/uploads/2022/08/p2.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-3 col-xl-4">
+                                    <h3 class="productName">Màscara Cabell Repara i protegeix</h3>
+                                    <ul class="content-list-description">
+                                        <li>Referència: 297270</li>
+                                        <li>Unitat per pack: Pac. 2 x 2 lt</li>
+                                        <li>€12,50/lt</li>
+                                        <li>Descompte aplicat: Eurofidelia Juin</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-3 col-xl-2">
+                                    <p>€3<span>/un</span></p>
+                                </div>
+                                <div class="col-6 col-lg-2 col-xl-1">
+                                    <div class="content-number-delete">
+                                        1                                            </div>
+                                </div>
+                                <div class="col-12 col-lg-2 col-xl-1 d-flex flex-row justify-content-start justify-content-lg-end align-items-start">
+                                    <span class="woocommerce-Price-amount amount"><bdi>3.00<span class="woocommerce-Price-currencySymbol">€</span></bdi></span>                                        </div>
+                                <div class="col-12 col-lg-2 col-xl-2 d-flex flex-row justify-content-start justify-content-lg-end align-items-start">
+                                    <a href="/cistella/?add-to-cart=147&amp;quantity=1" target="_self" class="btn btn-add-to-cart ">Afegir al carro</a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="items" data-id="145" data-name="Sabó Persil">
+                            <div class="row">
+                                <div class="col-6 col-lg-2 col-xl-2">
+                                    <a href="https://superu.fcweb.es/producto/sabo-persil/">
+                                        <img src="https://superu.fcweb.es/wp-content/uploads/2022/08/p1.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-3 col-xl-4">
+                                    <h3 class="productName">Sabó Persil</h3>
+                                    <ul class="content-list-description">
+                                        <li>Referència: 297270</li>
+                                        <li>Unitat per pack: Pac. 2 x 2 lt</li>
+                                        <li>€12,50/lt</li>
+                                        <li>Descompte aplicat: Eurofidelia Juin</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-3 col-xl-2">
+                                    <p>€1.1<span>/un</span></p>
+                                </div>
+                                <div class="col-6 col-lg-2 col-xl-1">
+                                    <div class="content-number-delete">
+                                        1                                            </div>
+                                </div>
+                                <div class="col-12 col-lg-2 col-xl-1 d-flex flex-row justify-content-start justify-content-lg-end align-items-start">
+                                    <span class="woocommerce-Price-amount amount"><bdi>1.10<span class="woocommerce-Price-currencySymbol">€</span></bdi></span>                                        </div>
+                                <div class="col-12 col-lg-2 col-xl-2 d-flex flex-row justify-content-start justify-content-lg-end align-items-start">
+                                    <a href="/cistella/?add-to-cart=145&amp;quantity=1" target="_self" class="btn btn-add-to-cart ">Afegir al carro</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="row">
+                        <div class="col-5 col-sm-7 col-md-9 d-flex flex-column justify-content-center align-items-start">
+                            <h3>demo 3</h3>
+                        </div>
+                        <div class="col-4 col-sm-3 col-md-2 d-flex flex-column justify-content-center align-items-center">
+                            <a type="button" class="btn-see-list">VEURE LLista</a>
+                        </div>
+                        <div class="col-3 col-sm-2 col-md-1 d-flex flex-column justify-content-center align-items-end">
+                            <form method="POST" action="">
+                                <input type="hidden" name="listRow" value="3">
+                                <input type="hidden" name="userID" value="35">
+                                <input type="hidden" name="eraseLista" value="true">
+                                <button class="btn-trash" type="submit"><i class="lni lni-trash"></i></button>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="productesLlista">
+                        <div class="container-title">
+                            <div class="row">
+                                <div class="col-12 col-lg-5 col-xl-6">
+                                    <h6 class="text-uppercase">Concepte</h6>
+                                </div>
+                                <div class="col-12 col-lg-3 col-xl-2">
+                                    <h6 class="text-capitalize">Preu</h6>
+                                </div>
+                                <div class="col-12 col-lg-2 col-xl-1">
+                                    <h6 class="text-capitalize">Quantitat</h6>
+                                </div>
+                                <div class="col-12 col-lg-2 col-xl-1 text-end">
+                                    <h6 class="text-capitalize">Total</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="items" data-id="149" data-name="Ice Tea">
+                            <div class="row">
+                                <div class="col-6 col-lg-2 col-xl-2">
+                                    <a href="https://superu.fcweb.es/producto/ice-tea/">
+                                        <img src="https://superu.fcweb.es/wp-content/uploads/2022/08/p3.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-3 col-xl-4">
+                                    <h3 class="productName">Ice Tea</h3>
+                                    <ul class="content-list-description">
+                                        <li>Referència: 297270</li>
+                                        <li>Unitat per pack: Pac. 2 x 2 lt</li>
+                                        <li>€12,50/lt</li>
+                                        <li>Descompte aplicat: Eurofidelia Juin</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-3 col-xl-2">
+                                    <p>€15<span>/un</span></p>
+                                </div>
+                                <div class="col-6 col-lg-2 col-xl-1">
+                                    <div class="content-number-delete">
+                                        1                                            </div>
+                                </div>
+                                <div class="col-12 col-lg-2 col-xl-1 d-flex flex-row justify-content-start justify-content-lg-end align-items-start">
+                                    <span class="woocommerce-Price-amount amount"><bdi>15.00<span class="woocommerce-Price-currencySymbol">€</span></bdi></span>                                        </div>
+                                <div class="col-12 col-lg-2 col-xl-2 d-flex flex-row justify-content-start justify-content-lg-end align-items-start">
+                                    <a href="/cistella/?add-to-cart=149&amp;quantity=1" target="_self" class="btn btn-add-to-cart ">Afegir al carro</a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="items" data-id="147" data-name="Màscara Cabell Repara i protegeix">
+                            <div class="row">
+                                <div class="col-6 col-lg-2 col-xl-2">
+                                    <a href="https://superu.fcweb.es/producto/mascara-cabell-repara-i-protegeix/">
+                                        <img src="https://superu.fcweb.es/wp-content/uploads/2022/08/p2.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-3 col-xl-4">
+                                    <h3 class="productName">Màscara Cabell Repara i protegeix</h3>
+                                    <ul class="content-list-description">
+                                        <li>Referència: 297270</li>
+                                        <li>Unitat per pack: Pac. 2 x 2 lt</li>
+                                        <li>€12,50/lt</li>
+                                        <li>Descompte aplicat: Eurofidelia Juin</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-3 col-xl-2">
+                                    <p>€3<span>/un</span></p>
+                                </div>
+                                <div class="col-6 col-lg-2 col-xl-1">
+                                    <div class="content-number-delete">
+                                        1                                            </div>
+                                </div>
+                                <div class="col-12 col-lg-2 col-xl-1 d-flex flex-row justify-content-start justify-content-lg-end align-items-start">
+                                    <span class="woocommerce-Price-amount amount"><bdi>3.00<span class="woocommerce-Price-currencySymbol">€</span></bdi></span>                                        </div>
+                                <div class="col-12 col-lg-2 col-xl-2 d-flex flex-row justify-content-start justify-content-lg-end align-items-start">
+                                    <a href="/cistella/?add-to-cart=147&amp;quantity=1" target="_self" class="btn btn-add-to-cart ">Afegir al carro</a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="items" data-id="145" data-name="Sabó Persil">
+                            <div class="row">
+                                <div class="col-6 col-lg-2 col-xl-2">
+                                    <a href="https://superu.fcweb.es/producto/sabo-persil/">
+                                        <img src="https://superu.fcweb.es/wp-content/uploads/2022/08/p1.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-3 col-xl-4">
+                                    <h3 class="productName">Sabó Persil</h3>
+                                    <ul class="content-list-description">
+                                        <li>Referència: 297270</li>
+                                        <li>Unitat per pack: Pac. 2 x 2 lt</li>
+                                        <li>€12,50/lt</li>
+                                        <li>Descompte aplicat: Eurofidelia Juin</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-3 col-xl-2">
+                                    <p>€1.1<span>/un</span></p>
+                                </div>
+                                <div class="col-6 col-lg-2 col-xl-1">
+                                    <div class="content-number-delete">
+                                        1                                            </div>
+                                </div>
+                                <div class="col-12 col-lg-2 col-xl-1 d-flex flex-row justify-content-start justify-content-lg-end align-items-start">
+                                    <span class="woocommerce-Price-amount amount"><bdi>1.10<span class="woocommerce-Price-currencySymbol">€</span></bdi></span>                                        </div>
+                                <div class="col-12 col-lg-2 col-xl-2 d-flex flex-row justify-content-start justify-content-lg-end align-items-start">
+                                    <a href="/cistella/?add-to-cart=145&amp;quantity=1" target="_self" class="btn btn-add-to-cart ">Afegir al carro</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin bloque-->
+    <!--footer-->
+    <footer></footer>
+    <!--Fin footer-->
+    <script type="text/javascript" src="./assets/js/bundle.min.js"></script>
+</body>
+
+</html>

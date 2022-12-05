@@ -1,0 +1,50 @@
+.block-my-account-dashboard {
+    padding: 60px 0px 85px 0px;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 7px 0px 40px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 7px 0px 40px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 7px 0px 40px 0px;
+    }
+
+    @include respond-to($medium-large) {
+        padding: 7px 0px 40px 0px;
+    }
+
+    p {
+        margin-bottom: 20px;
+        letter-spacing: 0;
+        line-height: 20px;
+        font-size: 15px;
+        color: $color-third;
+
+        strong {
+            margin-bottom: 0px;
+            letter-spacing: 0;
+            line-height: 20px;
+            font-weight: 700;
+            font-size: 15px;
+            color: $color-third;
+        }
+
+        a {
+            margin-bottom: 0px;
+            text-decoration: underline !important;
+            letter-spacing: 0;
+            line-height: 20px;
+            font-size: 15px;
+            color: $color-third;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}

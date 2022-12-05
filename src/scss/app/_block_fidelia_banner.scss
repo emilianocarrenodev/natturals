@@ -1,0 +1,25 @@
+.block-fidelia-banner {
+    background-color: #dcd5cb;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 25px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 25px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 25px 0px;
+    }
+
+    @include respond-to($medium-large) {
+        padding: 25px 0px;
+    }
+
+    .img-fluid {
+        width: 100%;
+        max-width: 695px;
+    }
+}
