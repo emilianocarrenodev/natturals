@@ -2,7 +2,7 @@ footer {
 
     .container-subscribe {
         padding: 35px 0px;
-        background-color: rgba(3,124,140,0.05);
+        background-color: rgba(138, 208, 140, 0.3);
 
         // Breakpoints
         @include respond-to($phone) {
@@ -274,7 +274,7 @@ footer {
 
         .section-main {
             padding: 35px 0px;
-            background-color: rgba(224, 239, 242, 1);
+            background-color: rgba(10, 52, 28, 0.1);
 
             // Breakpoints
             @include respond-to($phone) {

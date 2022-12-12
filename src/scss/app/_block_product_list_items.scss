@@ -254,7 +254,7 @@
         top: 0px;
         right: 0px;
         position: absolute;
-        background: transparent url('../img/bg-green.png') left top / 100% 100% no-repeat;
+        background: transparent url('../img/bg-red.png') left top / 100% 100% no-repeat;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -452,7 +452,7 @@
             .lni {
                 line-height: 25px;
                 font-size: 25px;
-                color: $color-secondary;
+                color: #EA3B21;
             }
         }
 
