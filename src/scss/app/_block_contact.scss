@@ -57,11 +57,12 @@
         line-height: 28px;
         font-weight: bold;
         font-size: 22px;
-        color: $color-primary;
+        color: $color-secondary;
     }
 
     p {
         margin-bottom: 23px;
+        color: $color-primary !important;
     }
 
     ul {

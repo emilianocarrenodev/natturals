@@ -5,7 +5,7 @@ import Swiper, { Autoplay, Navigation, Pagination, Thumbs } from 'swiper';
 Swiper.use([Autoplay, Navigation, Pagination, Thumbs]);
 
 /*All 'load' load the recurring blocks*/
-/*$("header").load("header.html");
+$("header").load("header.html");
 
 $("footer").load("footer.html", function () {
 
@@ -17,13 +17,13 @@ $("footer").load("footer.html", function () {
 
 });
 
-$(".container-sidebar").load("block-sidebar.html");*/
+$(".container-sidebar").load("block-sidebar.html");
 
 /*Scroll top*/
-document.querySelector(".btn-top").addEventListener("click", function(event) {
+/*document.querySelector(".btn-top").addEventListener("click", function(event) {
     event.preventDefault();
     $("html, body").animate({scrollTop: 0}, 1000);
-}, false);
+}, false);*/
 
 /*Modals*/
 const modal_list = new bootstrap.Modal("#modal-list");

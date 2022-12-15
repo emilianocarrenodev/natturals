@@ -194,7 +194,7 @@
             .container-main {
                 height: 100%;
                 padding: 20px 40px;
-                background-color: #3B9CA9;
+                background-color: $color-secondary;
 
                 .container-resume {
                     width: 100%;
@@ -289,7 +289,7 @@
                     width: 100%;
                     padding: 13px 19px;
                     margin-bottom: 20px;
-                    background-color: $color-secondary;
+                    background-color: #ff4829;
                     -webkit-border-radius: 7px;
                     -moz-border-radius: 7px;
                     border-radius: 7px;
@@ -461,8 +461,8 @@
                             line-height: 18px;
                             font-size: 11px;
                             color: #FFFFFF;
-                            border: 1px solid #00464F !important;
-                            background-color: $color-primary;
+                            border: 1px solid #4ca978 !important;
+                            background-color: #4ca978 !important;
                             -webkit-border-radius: 5px !important;
                             -moz-border-radius: 5px !important;
                             border-radius: 5px !important;
@@ -475,6 +475,13 @@
 
                     .btn {
                         width: 100%;
+                        border: 1px solid #4ca978 !important;
+                        background-color: $color-primary !important;
+
+                        &:hover {
+                            background-color: transparent !important;
+                            color: #FFFFFF !important;
+                        }
                     }
                 }
             }

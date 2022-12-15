@@ -131,7 +131,7 @@
             line-height: 23px;
             font-weight: 700;
             font-size: 18px;
-            color: $color-primary;
+            color: $color-secondary;
             opacity: 0.9;
 
             // Breakpoints
@@ -260,7 +260,7 @@
                 button {
                     width: 100%;
                     padding: 13px 10px;
-                    border: 1px solid $color-primary;
+                    border: 1px solid $color-secondary;
                     background-color: #FAFAFA;
                     text-align: left;
                     letter-spacing: 0;
@@ -279,7 +279,7 @@
 
                 .dropdown-menu {
                     padding: 0px;
-                    border: 1px solid $color-primary;
+                    border: 1px solid $color-secondary;
                     background-color: #FAFAFA;
                     -webkit-border-radius: 5px;
                     -moz-border-radius: 5px;
@@ -293,7 +293,7 @@
                         color: $color-fourth;
 
                         &:hover {
-                            background-color: $color-primary;
+                            background-color: $color-secondary;
                             color: #FFFFFF;
                         }
                     }

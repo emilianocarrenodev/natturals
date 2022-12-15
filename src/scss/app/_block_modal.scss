@@ -4,7 +4,7 @@
         max-width: 976px;
 
         .modal-content {
-            border: 2px solid #037C8C;
+            border: 2px solid $color-secondary;
             background-color: #FAFAFA;
             -webkit-border-radius: 5px;
             -moz-border-radius: 5px;
@@ -23,7 +23,7 @@
                     line-height: 24px;
                     font-weight: 700;
                     font-size: 20px;
-                    color: #037C8C;
+                    color: $color-secondary;
                 }
 
                 .btn-close {
@@ -61,6 +61,12 @@
                     width: 100%;
                     max-width: 350px;
                     margin: 0px;
+                    border-color: $color-secondary;
+                    background-color: $color-secondary;
+
+                    &:hover {
+                        background-color: transparent;
+                    }
                 }
             }
 
@@ -95,7 +101,7 @@
                     line-height: 24px;
                     font-weight: 700;
                     font-size: 24px;
-                    color: #037C8C;
+                    color: $color-secondary;
                 }
 
                 .list-alphabet {
@@ -122,7 +128,7 @@
                             cursor: pointer;
 
                             &:hover {
-                                color: #037C8C;
+                                color: $color-secondary;
                             }
                         }
                     }
@@ -190,8 +196,8 @@
                         cursor: pointer;
 
                         &:checked {
-                            background-color: $color-primary;
-                            border-color: $color-primary;
+                            background-color: $color-secondary;
+                            border-color: $color-secondary;
                         }
                     }
 
@@ -218,7 +224,7 @@
 
     .modal-body {
         padding: 30px 20px 20px 20px;
-        border: 2px solid $color-primary;
+        border: 2px solid $color-secondary;
         background-color: #FAFAFA;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -232,7 +238,7 @@
             line-height: 24px;
             font-weight: 700;
             font-size: 20px;
-            color: $color-primary;
+            color: $color-secondary;
 
             // Breakpoints
             @include respond-to($phone) {
@@ -327,7 +333,7 @@
 
     .modal-body {
         padding: 50px 35px;
-        border: 2px solid $color-primary;
+        border: 2px solid $color-secondary;
         background-color: #FAFAFA;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -380,7 +386,7 @@
             line-height: 24px;
             font-weight: 700;
             font-size: 20px;
-            color: $color-primary;
+            color: $color-secondary;
         }
 
         p {
@@ -409,7 +415,7 @@
                 line-height: 15px;
                 font-weight: 700;
                 font-size: 15px;
-                color: $color-primary;
+                color: $color-secondary;
             }
         }
     }
@@ -419,7 +425,7 @@
 
     .modal-body {
         padding: 50px 35px;
-        border: 2px solid $color-primary;
+        border: 2px solid $color-secondary;
         background-color: #FAFAFA;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -472,7 +478,7 @@
             line-height: 24px;
             font-weight: 700;
             font-size: 20px;
-            color: $color-primary;
+            color: $color-secondary;
         }
 
         p {
@@ -501,7 +507,7 @@
                 line-height: 15px;
                 font-weight: 700;
                 font-size: 15px;
-                color: $color-primary;
+                color: $color-secondary;
             }
         }
     }
@@ -569,7 +575,7 @@
 
     .modal-body {
         padding: 25px 20px;
-        border: 2px solid $color-primary;
+        border: 2px solid $color-secondary;
         background-color: #FAFAFA;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -630,7 +636,7 @@
                 line-height: 15px;
                 font-weight: 700;
                 font-size: 15px;
-                color: $color-primary;
+                color: $color-secondary;
             }
         }
 
@@ -649,7 +655,7 @@
             line-height: 24px;
             font-weight: 700;
             font-size: 16px;
-            color: $color-primary;
+            color: $color-secondary;
         }
 
         p {
@@ -747,7 +753,7 @@
 
     .modal-body {
         padding: 35px 20px;
-        border: 2px solid $color-primary;
+        border: 2px solid $color-secondary;
         background-color: #FAFAFA;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -808,7 +814,7 @@
                 line-height: 15px;
                 font-weight: 700;
                 font-size: 15px;
-                color: $color-primary;
+                color: $color-secondary;
             }
         }
 
@@ -820,7 +826,7 @@
             line-height: 24px;
             font-weight: 700;
             font-size: 18px;
-            color: $color-primary;
+            color: $color-secondary;
         }
 
         p {

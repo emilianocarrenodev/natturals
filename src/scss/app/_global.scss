@@ -51,6 +51,10 @@ h2 {
     opacity: 0.9;
 }
 
+.text-color-red {
+    color: #e42211 !important;
+}
+
 /*Botones*/
 .btn-primary {
     padding: 10px 32px;    
@@ -60,8 +64,8 @@ h2 {
     line-height: 16px;
     font-size: 12px;
     color: #FFFFFF !important;
-    border: 1px solid $color-primary !important;
-    background-color: $color-primary !important;
+    border: 1px solid $color-secondary !important;
+    background-color: $color-secondary !important;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -70,7 +74,7 @@ h2 {
     &:focus,
     &:active,
     &.active {
-        color: $color-primary !important;
+        color: $color-secondary !important;
         background-color: transparent !important;
     }
 }

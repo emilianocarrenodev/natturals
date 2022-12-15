@@ -33,8 +33,8 @@ form {
     }
 
     .form-check-input:checked {
-        background-color: $color-primary;
-        border-color: $color-primary;
+        background-color: $color-secondary;
+        border-color: $color-secondary;
     }
 
     .form-control {
@@ -71,6 +71,16 @@ form {
             font-weight: 300;
             font-size: 14px;
             color: #000000;
+        }
+    }
+
+    .btn-primary {
+        border-color: $color-secondary !important;
+        background-color: $color-secondary !important;
+
+        &:hover {
+            background-color: transparent !important;
+            color: $color-secondary !important;
         }
     }
 }
