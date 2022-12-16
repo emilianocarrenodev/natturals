@@ -28,7 +28,7 @@
         line-height: 23px;
         font-weight: 700;
         font-size: 20px;
-        color: $color-primary;
+        color: $color-secondary;
         background-size: 17px auto;
         background-repeat: no-repeat;
         background-color: transparent;
@@ -62,7 +62,7 @@
 
     .container-title {
         padding: 15px;
-        background-color: #409CA8;
+        background-color: rgba(10, 52, 28, 0.8);
 
         h2 {
             margin: 0px;
@@ -104,14 +104,14 @@
         }
 
         &::-webkit-scrollbar-thumb {
-            background: #409CA8;
+            background: rgba(10, 52, 28, 0.8);
             -webkit-border-radius: 5px;
             -moz-border-radius: 5px;
             border-radius: 5px;
         }
 
         &::-webkit-scrollbar-thumb:hover {
-            background: #409CA8;
+            background: rgba(10, 52, 28, 0.8);
         }
 
         .items {
@@ -141,7 +141,7 @@
                 letter-spacing: 0;
                 line-height: 23px;
                 font-size: 16px;
-                color: $color-primary;
+                color: $color-secondary;
                 opacity: 0.9;
             }
 
