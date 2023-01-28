@@ -379,34 +379,37 @@ header {
         }
 
         .type-one {
-            margin-bottom: 0px;
-            padding-left: 0px;
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            justify-content: flex-start;
 
-            li {
-                margin-right: 30px;
+            ul {
+                margin-bottom: 0px;
+                padding-left: 0px;
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: flex-start;
 
-                // Breakpoints
-                @include respond-to($large-extra) {
-                    margin-right: 15px;
-                }
+                li {
+                    margin-right: 30px;
 
-                &:last-child {
-                    margin-right: 0px;
-                }
+                    // Breakpoints
+                    @include respond-to($large-extra) {
+                        margin-right: 15px;
+                    }
 
-                a {
-                    text-transform: uppercase;
-                    text-align: center;
-                    letter-spacing: 0.5px;
-                    line-height: 16px;
-                    font-weight: 400;
-                    font-size: 13px;
-                    color: $color-secondary;
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+
+                    a {
+                        text-transform: uppercase;
+                        text-align: center;
+                        letter-spacing: 0.5px;
+                        line-height: 16px;
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: $color-secondary;
+                    }
                 }
             }
         }
@@ -641,30 +644,33 @@ header {
                 .offcanvas-body {
                     padding: 0px;
 
-                    .menu {
-                        margin-bottom: 0px;
-                        padding: 18px 25px;
-                        background-color: #e4f2f4;
-                        list-style: none;
+                    .type-one {
 
-                        .menu-item {
-                            margin-bottom: 20px;
+                        ul {
+                            margin-bottom: 0px;
+                            padding: 18px 25px;
+                            background-color: #e4f2f4;
+                            list-style: none;
 
-                            &:last-child {
-                                margin-bottom: 0px;
-                            }
+                            li {
+                                margin-bottom: 20px;
 
-                            a {
-                                padding: 0px;
-                                text-transform: uppercase;
-                                letter-spacing: 0.5px;
-                                line-height: 15px;
-                                font-weight: 700;
-                                font-size: 12px;
-                                color: $color-primary;
+                                &:last-child {
+                                    margin-bottom: 0px;
+                                }
 
-                                &:hover {
-                                    text-decoration: underline !important;
+                                a {
+                                    padding: 0px;
+                                    text-transform: uppercase;
+                                    letter-spacing: 0.5px;
+                                    line-height: 15px;
+                                    font-weight: 700;
+                                    font-size: 12px;
+                                    color: $color-primary;
+
+                                    &:hover {
+                                        text-decoration: underline !important;
+                                    }
                                 }
                             }
                         }

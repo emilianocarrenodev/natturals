@@ -456,6 +456,18 @@
             }
         }
 
+        .input-quantity {
+            padding: 6px 5px;
+            border: 1px solid $color-primary;
+            letter-spacing: 0;
+            line-height: 19px;
+            font-size: 16px;
+            color: #1C212A;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+
         .btn-add-cart {
             padding: 10px;
             border: none;

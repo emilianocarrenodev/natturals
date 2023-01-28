@@ -304,3 +304,17 @@ p {
         }
     }
 }
+
+.alert {
+    letter-spacing: 0;
+    line-height: 17px;
+    font-size: 13px;
+
+    a {
+        margin-left: 5px;
+        letter-spacing: 0;
+        line-height: 15px;
+        font-size: 11px;
+        color: #4c4b4a;
+    }
+}

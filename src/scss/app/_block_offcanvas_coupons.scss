@@ -396,10 +396,15 @@
                                         height: 25px;
                                         margin: 0px;
                                         border: none;
-                                        background-color: $color-secondary;
+                                        background-color: $color-five;
+                                        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e") !important;
                                         box-shadow: none;
                                         outline: none;
                                         cursor: pointer;
+
+                                        &:checked {
+                                            background-color: #22c93e;
+                                        }
                                     }
                                 }
                             }
